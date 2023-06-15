@@ -10163,3 +10163,51 @@ h2 {
   margin-top: 20px;
 }
 
+.carousel-hieght{
+  height: 40rem; object-fit: cover;
+}
+
+@media(max-width: 350px){
+  .carousel-hieght{
+    height: 10rem; object-fit: cover;
+  }
+}
+
+
+.logohw{
+  height: 4rem; width: 8rem;
+}
+
+@media(max-width: 350px){
+  .logohw{
+    height: 3rem; width: 6rem;padding-left: 10px;
+  }
+}
+
+
+/*.carousel-inner { overflow: visible; }*/
+
+.imghw{
+  width:560px; height:315px;
+}
+
+.tathastuimg{
+  height: 40rem; width:100%;
+}
+
+@media(max-width: 360px){
+  .imghw{
+    height: 10rem;
+    width: 15rem;
+  }
+  .imgflex{
+    flex-direction: column;
+  }
+  .imghw37D{
+    width: 15rem;
+  }
+  .tathastuimg{
+    height: 10rem;
+    width: 100%;
+  }
+}
