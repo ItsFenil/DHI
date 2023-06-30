@@ -10054,8 +10054,33 @@ textarea.form-control {
   background-color: darkblue;
   color: white;
   padding: 20px 10px;
+  margin-bottom: -10px;
 /*  border-radius: 4px;*/
 }
+
+.agent-call {
+  display: flex;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  
+  align-items: center;
+  justify-content: center;
+  background-color: #D4CA68;
+  width: 100%;
+  padding: 10px;
+  
+}
+
+.agent-call-text {
+  font-size: 12px;
+  color: black;
+/*  text-transform: uppercase;*/
+}
+
+.toggleable-elements.hide {
+  display: none;
+}
+
 
 @media only screen and (max-width: 350px) {
   .slider-text h1 {
@@ -10211,3 +10236,43 @@ h2 {
     width: 100%;
   }
 }
+
+/*.properties-dropdown .sub-menu {
+  display: none;
+}
+
+.properties-dropdown:hover .sub-menu {
+  display: block;
+}
+
+.residential-submenu .sub-sub-menu,
+.commercial-submenu .sub-sub-menu {
+  display: none;
+}
+
+.residential-submenu:hover .sub-sub-menu,
+.commercial-submenu:hover .sub-sub-menu {
+  display: block;
+}*/
+
+ .dropdown-submenu {
+    position: relative;
+  }
+
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  }
+
+  .dropdown-submenu:hover .dropdown-menu {
+    display: block;
+  }
+
+  /*.dropdown-submenu:hover > a {
+    background-color: #f8f9fa;
+  }*/
+
+  .bold {
+    font-weight: bold;
+  }
