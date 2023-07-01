@@ -28,7 +28,7 @@
   </head>
   <body>
     
-	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
   <div class="container">
     <a class="navbar-brand" href="index.html"><img class="logohw" src="images/logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,27 +37,21 @@
 
     <div class="collapse navbar-collapse" id="ftco-nav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="propertiesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Properties
-          </a>
-          <div class="dropdown-menu" aria-labelledby="propertiesDropdown">
-            <a class="dropdown-item bold" href="#" style="cursor: none;">Commercial</a>
-            <div class="dropdown-submenu">
-              <a class="dropdown-item" href="#">Seo plots</a>
-              <a class="dropdown-item" href="#">Retail Shop</a>
-              <a class="dropdown-item" href="#">Office space</a>
-            </div>
-            <a class="dropdown-item bold" href="#" style="cursor: none;">Residential</a>
-            <div class="dropdown-submenu">
-              <a class="dropdown-item" href="#">Plots</a>
-              <a class="dropdown-item" href="#">Apartment</a>
-              <a class="dropdown-item" href="#">Low Price</a>
-              <a class="dropdown-item" href="#">High Price</a>
-            </div>
-          </div>
+          <a href="#" class="nav-link dropdown-toggle">Properties</a>
+          <ul class="dropdown-menu services-dropdown">
+            <li><strong><a href="#">Commercial</a></strong></li>
+            <li><a href="#">Seo plots</a></li>
+            <li><a href="#">Retail Shop</a></li>
+            <li><a href="#">Office space</a></li>
+            <li><strong><a href="#">Residential</a></strong></li>
+            <li><a href="#">Plots</a></li>
+            <li><a href="#">Apartment</a></li>
+            <li><a href="#">Low Price</a></li>
+            <li><a href="#">High Price</a></li>
+          </ul>
         </li>
         <li class="nav-item"><a href="Career.html" class="nav-link">Career</a></li>
         <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
@@ -66,6 +60,42 @@
     </div>
   </div>
 </nav>
+
+<style>
+  .services-dropdown {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+  .services-dropdown li a {
+    color: #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+  }
+
+  @media only screen and (max-width: 400px){
+    .services-dropdown li a {
+    color: #333;
+    padding: 0px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  }
+</style>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+  // Close the navbar collapse when a link is clicked
+  $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+  });
+</script>
+
     <!-- END nav -->
     
     <section class="hero-wrap hero-wrap-2 ftco-degree-bg js-fullheight" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
