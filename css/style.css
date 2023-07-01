@@ -10062,7 +10062,7 @@ textarea.form-control {
   display: flex;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  
+
   align-items: center;
   justify-content: center;
   background-color: #D4CA68;
@@ -10070,6 +10070,7 @@ textarea.form-control {
   padding: 10px;
   
 }
+
 
 .agent-call-text {
   font-size: 12px;
