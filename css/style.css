@@ -2689,7 +2689,7 @@ input[type="button"].btn-block {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.25rem 1.5rem;
+  padding: 0.30rem 1.5rem;
   clear: both;
   font-weight: 400;
   color: #212529;
@@ -10083,9 +10083,9 @@ textarea.form-control {
 }
 
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
   .slider-text h1 {
-   font-size: 40px;
+   font-size: 30px;
   }
   .slider-text{
     height: 650px
@@ -10202,12 +10202,15 @@ h2 {
 
 .logohw{
   height: 4rem; width: 8rem;
+/*  margin-left: 100px;*/
 }
 
-@media(max-width: 350px){
+@media(max-width: 450px){
   .logohw{
     height: 3rem; width: 6rem;padding-left: 10px;
+    margin-left: 0px;
   }
+
 }
 
 
@@ -10256,7 +10259,7 @@ h2 {
   display: block;
 }*/
 
- .dropdown-submenu {
+/* .dropdown-submenu {
     position: relative;
   }
 
@@ -10268,13 +10271,13 @@ h2 {
 
   .dropdown-submenu:hover .dropdown-menu {
     display: block;
-  }
+  }*/
 
   /*.dropdown-submenu:hover > a {
     background-color: #f8f9fa;
   }*/
 
-  .bold {
+/*  .bold {
     font-weight: bold;
   }
 
@@ -10320,3 +10323,55 @@ nav {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+*/
+
+@media all and (min-width: 992px) {
+  .dropdown-menu li{ position: relative;  }
+  .nav-item .submenu{ 
+    display: none;
+    position: absolute;
+    left:100%; top:-7px;
+  }
+  .nav-item .submenu-left{ 
+    right:100%; left:auto;
+  }
+  .dropdown-menu > li:hover{ background-color: #f1f1f1 }
+  .dropdown-menu > li:hover > .submenu{ display: block; }
+} 
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+  .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+  }
+} 
+
+.navbar-nav {
+/*  margin-right: 200px;*/
+}
+
+
+@media (max-width: 450px) {
+.navbar-nav {
+  margin-right: 0px;
+}
+
+}
+
+/*.navbar-nav .nav-item {
+  float: none;
+  text-align: center;
+}*/
+
+
+
+/* Optional: Add a max-width to the navigation links container */
+/* This will prevent the links from taking the full width of the navbar on larger screens */
+
+
+
+
+
+
+

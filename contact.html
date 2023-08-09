@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <title>Discoveryhomes</title>
+     <link rel="icon" type="image/png" href="images/logo.png"/>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -28,81 +29,146 @@
   </head>
   <body>
     
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-black ftco-navbar-dark" id="ftco-navbar">
-  <div class="container">
-    <a class="navbar-brand" href="index.html"><img class="logohw" src="images/logo.png"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="oi oi-menu"></span> Menu
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-black ftco-navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logohw" src="images/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="ftco-nav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle">Properties</a>
-          <ul class="dropdown-menu services-dropdown">
-            <li><strong><a href="#">Commercial</a></strong></li>
-            <li><a href="#">Seo plots</a></li>
-            <li><a href="#">Retail Shop</a></li>
-            <li><a href="#">Office space</a></li>
-            <li><strong><a href="#">Residential</a></strong></li>
-            <li><a href="#">Plots</a></li>
-            <li><a href="#">Apartment</a></li>
-            <li><a href="#">Low Price</a></li>
-            <li><a href="#">High Price</a></li>
+     <div class="collapse navbar-collapse justify-content-center" id="main_nav">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item dropdown" id="myDropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Properties</a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="dropdown-item" href="#">Commercial &raquo;</a>
+              <ul class="submenu dropdown-menu">
+                <li><a class="dropdown-item" href="#">SCO plots &raquo;</a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EMAAR</a></li>
+                    <li><a class="dropdown-item" href="#">MRG</a></li>
+                    <li><a class="dropdown-item" href="#">Orris</a></li>
+                    <li><a class="dropdown-item" href="#">Gateway</a></li>
+                    <li><a class="dropdown-item" href="#">Microtech sec 81</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Retail Shop &raquo;</a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">SIGNUM 88 AND 95</a></li>
+                    <li><a class="dropdown-item" href="#">M3M</a></li>
+                    <li><a class="dropdown-item" href="#">MRG</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Office space &raquo;</a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EMAAR</a></li>
+                    <li><a class="dropdown-item" href="#">BHUTANI</a></li>
+                    <li><a class="dropdown-item" href="#">OMAXE</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Residential &raquo;</a>
+              <ul class="submenu dropdown-menu">
+                <li><a class="dropdown-item" href="#">Plots</a></li>
+                <li><a class="dropdown-item" href="#">Apartment</a></li>
+                <li><a class="dropdown-item" href="#">Low Price</a></li>
+                <li><a class="dropdown-item" href="#">High Price &raquo;</a>
+                  <ul class="submenu dropdown-menu">
+                    <li><a class="dropdown-item" href="#">SIGNATURE GLOBAL</a></li>
+                    <li><a class="dropdown-item" href="#">GANAGA</a></li>
+                    <li><a class="dropdown-item" href="#">DLF</a></li>
+                    <li><a class="dropdown-item" href="#">EMAAR</a></li>
+                    <li><a class="dropdown-item" href="#">GODREJ</a></li>
+                    <li><a class="dropdown-item" href="#">M3M</a></li>
+                    <li><a class="dropdown-item" href="#">SMART WORLD</a></li>
+                    <li><a class="dropdown-item" href="#">ADANI</a></li>
+                    <li><a class="dropdown-item" href="#">BIRLA</a></li>
+                    <li><a class="dropdown-item" href="#">PURI</a></li>
+                    <li><a class="dropdown-item" href="#">MAHINDRA</a></li>
+                    <li><a class="dropdown-item" href="#">Ashiana</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
           </ul>
         </li>
-        <li class="nav-item"><a href="Career.html" class="nav-link">Career</a></li>
-        <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-        <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
-      </ul>
+        <li class="nav-item">
+          <a href="Career.html" class="nav-link">Career</a>
+        </li>
+        <li class="nav-item">
+          <a href="blog.html" class="nav-link">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link">Contact</a>
+        </li>
+      
+
+        
+      <!-- Your other navigation items -->
+</ul>
+</div>
+<ul class="ml-auto instafbnone" style="margin: 5px;">
+      <!-- Instagram icon -->
+      <li class="nav-item justify-content-end" style="display: flex;">
+        <a href="#" class="nav-link">
+          <i class="fab fa-instagram"></i>
+        </a><a href="#" class="nav-link">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    </ul>
+     
+
+      <!-- Facebook icon -->
+     
+        
+      
+    </ul>
+    
     </div>
+   
   </div>
+ 
 </nav>
 
 <style>
-  .services-dropdown {
-    background-color: #f1f1f1;
-    padding: 10px;
+  .navbar-nav .nav-link {
+    color: #D4CA68 !important;
   }
 
-  .services-dropdown li a {
-    color: #333;
-    padding: 5px 10px;
-    text-decoration: none;
-    display: block;
+  @media(max-width: 1000px){
+    .instafbnone{
+      display: none;
+    }
   }
 
-  @media only screen and (max-width: 400px){
-    .services-dropdown li a {
-    color: #333;
-    padding: 0px 10px;
-    text-decoration: none;
-    display: block;
-  }
-  }
+
 </style>
-
-
-
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <script>
-  // Close the navbar collapse when a link is clicked
   $('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
+     $(this).next('ul').toggle();
+    // e.stopPropagation();
+    // e.preventDefault();
   });
 </script>
-
     <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2 ftco-degree-bg js-fullheight" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2 ftco-degree-bg js-fullheight" style="background-image: url('images/contact.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="overlay-2"></div>
       <div class="container">
-        <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate pb-5 mb-5 text-center">
             <h1 class="mb-3 bread">Contact Us</h1>
             <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
@@ -268,6 +334,7 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://kit.fontawesome.com/2f7773ff94.js" crossorigin="anonymous"></script>
     
   </body>
 </html>
